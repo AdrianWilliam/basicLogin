@@ -1,0 +1,105 @@
+.error_data_login{
+    color: rgb(239, 29, 10);
+}
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.login_area {
+  width: 20rem;
+  height: 30rem;
+  background: #242424;
+  border-radius: 30px;
+}
+.login_content {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.title {
+  text-align: center;
+  font-family: var(--text-title);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.104);
+}
+.inputs_login_data {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 0.3rem;
+  font-family: var(--font-default);
+}
+.inputs_login_data label {
+  color: white;
+}
+.inputs_login_data input {
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.166);
+  color: rgb(218, 218, 218);
+  font-family: var(--text-title);
+}
+.forgot_password {
+  text-align: end;
+  color: white;
+  cursor: pointer;
+}
+.button_login {
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  background: orangered;
+  font-family: var(--text-buttons);
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+
+  transition: background-color 0.8s;
+}
+.other_way_login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-height: 100%;
+  gap: 0.4rem;
+  font-family: var(--text-buttons);
+}
+.other_way_login p{
+    color: white;
+    white-space: nowrap;
+}
+.other_way_login .other_way_button {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.061);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.8s;
+}
+.register {
+  font-family: var(--font-default);
+  color: white;
+}
+.register a {
+  text-decoration: none;
+  font-weight: 600;
+  color: orangered;
+}
+
+
+.button_login:hover{
+    background-color: rgb(255, 82, 19);
+}
+.other_way_button:hover{
+    background-color: #404040;
+}

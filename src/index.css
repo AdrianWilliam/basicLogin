@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-title: "Roboto", "sans-serif";
+  --font-default: "Quicksand", sans-serif;
+  --text-buttons: "Poppins", "sans-serif";
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+}
