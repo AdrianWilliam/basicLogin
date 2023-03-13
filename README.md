@@ -1,20 +1,31 @@
 # basicLogin
-#I created this project to learn basics about TypeScript.
-#The project it's a simple login system, you can make register,login and logout.
+I created this project to learn basics about TypeScript.
 
-#I use for this project:
-#React + Typescript, using vite for configuration
+The project it's a simple login system, you can make register,login and logout.
 
-#To run this project:
-#Clone this repository:
-#(commands using terminal)
-#cd (path for you project folder Ex: cd C:/User/Project/Test)
-#git init
-#git clone (This repository URL)
+I use for this project:
+**React + Typescript, using vite for configuration**
 
-#Enter in project folder: cd (path Ex:cd C:/User/Project/test/basicLogin) for enter in project folder
-#after install dependencies:
-#npm install
+# To run this project
 
-#And run project using: 
-#npm run dev 
+Clone this repository:
+
+**in terminal(cmd):**
+
+  cd (path for you project folder Ex: cd C:/User/Project/Test)
+
+  git init
+
+  git clone (This repository URL)
+
+  Enter in project folder:
+  cd (path Ex:cd C:/User/Project/test/basicLogin) for enter in project folder
+
+  install dependencies:
+  npm install
+
+  And run project using: 
+  npm run dev 
+
+
+
